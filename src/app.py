@@ -58,7 +58,7 @@ def remove_member(member_id):
 def get_member(member_id):
 
     get=jackson_family.get_member(member_id)
-    return jsonify(get_member), 200
+    return jsonify(get), 200
 
 
 
